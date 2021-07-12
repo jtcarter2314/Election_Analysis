@@ -134,7 +134,7 @@ winning_county_summary = (
             f"-------------------------\n")
 print(winning_county_summary)
 txt_file.write(winning_county_summary)    # 8: Save the county with the largest turnout to a text file.
-            
+
 
     # Save the final candidate vote count to the text file.
 for candidate_name in candidate_votes:
@@ -168,3 +168,6 @@ print(winning_candidate_summary)
 
     # Save the winning candidate's name to the text file
 txt_file.write(winning_candidate_summary)
+
+
+# couldn't figure out the indent issues within my code
